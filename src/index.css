@@ -9,6 +9,18 @@
     --clr-neutral-900: hsl(218, 23%, 16%);
 }
 
+.sr-only {
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1;
+    width: 1;
+    margin: -1;
+    padding: 0;
+    border: 0;
+}
+
 .max-width-wrapper {
     max-width: 550px;
     padding-left: 16px;
