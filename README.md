@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 -   [Solution](https://github.com/TerminalEagle/advice-generator-application)
--   [Live Site](https://6468536a5a32344ff12ea41c--dashing-melomakarona-f0457d.netlify.app/)
+-   [Live Site](https://64685c31ee907b5fc0bd0813--dashing-melomakarona-f0457d.netlify.app/)
 
 ## My process
 
