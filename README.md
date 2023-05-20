@@ -2,7 +2,7 @@
 
 ![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
 
-# Table of contents
+## Table of contents
 
 -   [Overview](#overview)
     -   [The challenge](#the-challenge)
@@ -13,9 +13,9 @@
     -   [What I learned](#what-i-learned)
 -   [Author](#author)
 
-# Overview
+## Overview
 
-## The challenge
+### The challenge
 
 The challenge is to build out this advice generator app using the [Advice Slip API](https://api.adviceslip.com) and get it looking as close to the design as possible.
 
@@ -25,32 +25,32 @@ Users should be able to:
 -   See hover states for all interactive elements on the page
 -   Generate a new piece of advice by clicking the dice icon
 
-# Screenshot
+### Screenshot
 
 ![](screenshots/desktop-design.png)
 ![](screenshots/mobile-design.jpg)
 
-# Links
+### Links
 
--   Solution URL: [Solution](https://github.com/TerminalEagle/NFT-Preview-Card)
--   Live Site URL: [Live Site](https://terminaleagle.github.io/NFT-Preview-Card/)
+-   [Solution](https://github.com/TerminalEagle/advice-generator-application)
+-   [Live Site](https://6468536a5a32344ff12ea41c--dashing-melomakarona-f0457d.netlify.app/)
 
-# My process
+## My process
 
-## Built with
+### Built with
 
 -   Semantic HTML5 markup
 -   CSS custom properties
 -   React - JS library
 -   Mobile-first workflow
 
-## What I learned
+### What I learned
 
 This is my first **real** project that I have completed using React which I started learning a few days ago.
 
 The project also provids a level of accessibility features, which I did not look into in my previous projects. I still have a long way to go in both my HTML, CSS and other skills but I think it's a start.
 
-## Useful resources
+### Useful resources
 
 I used the [CSS snippet developed by Josh Cameau](https://www.joshwcomeau.com/snippets/react-components/visually-hidden/) to hide the elements meant for providing accessibilty.
 
