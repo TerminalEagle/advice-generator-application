@@ -4,7 +4,7 @@ import axios from "axios";
 function Divider({ isDesktop }) {
     if (isDesktop) {
         return (
-            <div className="divider" aria-roledescription="visual division between button and text">
+            <div className="divider" role="divider" aria-roledescription="visual division between button and text">
                 <svg width="444" height="16" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fillRule="evenodd">
                         <path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z" />
@@ -18,7 +18,7 @@ function Divider({ isDesktop }) {
         );
     } else {
         return (
-            <div className="divider" aria-roledescription="visual division between button and text">
+            <div className="divider" role="divider" aria-roledescription="visual division between button and text">
                 <svg width="295" height="16" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fillRule="evenodd">
                         <path fill="#4F5D74" d="M0 8h122v1H0zM173 8h122v1H173z" />
@@ -35,7 +35,7 @@ function Divider({ isDesktop }) {
 
 function AdviceNumber({ adviceNumber }) {
     return (
-        <span className="advice-number" aria-roledescription="display advice number">
+        <span className="advice-number" role="advice number" aria-roledescription="displays advice number">
             Advice #{adviceNumber}
         </span>
     );
@@ -43,7 +43,7 @@ function AdviceNumber({ adviceNumber }) {
 
 function Advice({ adviceText }) {
     return (
-        <q className="advice-text" aria-roledescription="display advice text">
+        <q className="advice-text" role="advice text" aria-roledescription="displays advice text">
             {adviceText}
         </q>
     );
