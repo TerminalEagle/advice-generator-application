@@ -1,13 +1,119 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+:root {
+    --clr-primary-cyan: hsl(193, 38%, 86%);
+    --clr-secondary-green: hsl(150, 100%, 66%);
+
+    --clr-neutral-500: hsl(217, 19%, 38%);
+    --clr-neutral-700: hsl(217, 19%, 24%);
+    --clr-neutral-900: hsl(218, 23%, 16%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.max-width-wrapper {
+    max-width: 550px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    background-color: var(--clr-neutral-900);
+
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+
+    display: grid;
+    place-content: center;
+}
+
+.advice-container {
+    background-color: var(--clr-neutral-700);
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+
+    border-radius: 12px;
+    text-align: center;
+
+    position: relative;
+}
+
+.advice-number,
+.advice-text {
+    margin-bottom: 24px;
+}
+
+.advice-number {
+    display: block;
+    color: var(--clr-secondary-green);
+
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.advice-text {
+    display: block;
+    color: var(--clr-primary-cyan);
+
+    font-size: 1.5rem;
+}
+
+.divider svg {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: var(--clr-secondary-green);
+    border: none;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+    margin: auto;
+}
+
+.btn:hover {
+    box-shadow: 0 0 25px 2px var(--clr-secondary-green);
+}
+
+@media (min-width: 50em) {
+    .advice-text {
+        font-size: 1.75rem;
+    }
+
+    .advice-container {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 48px;
+        padding-bottom: 64px;
+    }
+
+    .advice-text {
+        margin-bottom: 32px;
+    }
 }
