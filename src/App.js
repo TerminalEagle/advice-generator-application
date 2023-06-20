@@ -64,6 +64,10 @@ function ButtonGetAdvice({ onClickSetAdvice }) {
         await onClickSetAdvice(newAdvice);
     }
 
+    useEffect(() => {
+        fetchAdvice();
+    });
+
     return (
         <button className="btn btn-generate-advice" onClick={fetchAdvice}>
             <p className="sr-only">Generate advice</p>
